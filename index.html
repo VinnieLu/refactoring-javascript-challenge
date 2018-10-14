@@ -1,0 +1,34 @@
+<!doctype HTML >
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./css/normalize.css"   type="text/css">
+    <link rel="stylesheet" href="./css/application.css" type="text/css" media="all" />
+
+    <script src="./js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="./js/application.js"></script>
+
+    <title>Non-magic Nine Ball</title>
+  </head>
+
+  <body class="twilight-background">
+    <div class="container">
+      <header class="header">
+        <img src="./images/nine-ball-logo.png" class="logo" alt="logo">
+      </header>
+
+      <main class="main">
+        <div class="question-wrapper">
+          <input id="question" name="question" type="text" class="input question-input" autofocus>
+          <button id="ask-button" class="button question-button orange-button">Ask</button>
+        </div>
+
+        <div class="answer shadowed">
+          <p id="answer">I'm here to answer yes-no questions.</p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

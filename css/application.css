@@ -1,0 +1,99 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+}
+
+.twilight-background {
+  background: url("../images/twinkle-background.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.header {
+  margin: 5em 0 4em 0;
+}
+
+.logo {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  font-size: 36px;
+  color: white;
+  margin-bottom: .5em;
+}
+
+.shadowed {
+  text-shadow: 2px 3px 1px black;
+}
+
+.question-wrapper {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  padding: .35em;
+  background-color: white;
+  border-radius: .5em;
+}
+
+.input {
+  font-size: 24px;
+  color: #111;
+  border: none;
+  outline: none;
+}
+
+.question-input {
+  flex-grow: 1;
+  min-width: 0;
+  margin-left: .5em;
+  margin-right: 1em;
+}
+
+.button {
+  font-size: 24px;
+  font-weight: bold;
+  padding: .5em;
+  border: 2px solid black;
+  border-radius: .25em;
+  outline: none;
+}
+
+.question-button {
+  width: 30%;
+}
+
+.orange-button {
+  border: 2px solid #902c8e;
+  color: #af7a33;
+  text-shadow: 0 1px 0 #fedd9b;
+  background: linear-gradient(#fef035, #f59331);
+}
+
+.orange-button:active {
+  background: #f59331;
+}
+
+.answer {
+  padding: 1.25em;
+  font-size: 48px;
+  text-align: center;
+  color: white;
+}
